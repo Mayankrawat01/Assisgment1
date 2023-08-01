@@ -1,0 +1,28 @@
+//palindrome
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome</title>
+</head>
+<body>
+    <script>
+        function plaindrome(){
+let str = prompt("Enter the word")
+let len=str.length;
+for(let i =0;i<len/2;i++){
+    if(str[i] != str[len -1 -i]){
+        console.log(`${str} is  a Palindrome`)
+    }
+    else{
+        console.log(`${str} is a plainfrome` )
+    }
+
+
+}
+        }
+        plaindrome()
+</script>
+</body>
+</html>

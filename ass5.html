@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+<script>
+    function factorial(){
+    let num = prompt("Enter the number");
+    let con=1;
+    if(num ==0){
+        console.log(`${num} factorial is 1`)
+    }
+    else{
+        for(let i=1;i<=num;i++){
+            
+            con *= i;
+           
+        }
+        console.log(`The factorial of ${num} is ${con}`)
+    }
+}
+factorial()
+    
+    
+</script>
+</body>
+</html>
